@@ -18,6 +18,7 @@
 		9D2F645B283995C700E6D7E7 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F645A283995C700E6D7E7 /* NewConversationViewController.swift */; };
 		9D2F645D283995D600E6D7E7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F645C283995D600E6D7E7 /* ProfileViewController.swift */; };
 		9D2F645F28399BBE00E6D7E7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F645E28399BBE00E6D7E7 /* Extensions.swift */; };
+		EE8FC9982839B3DB0015DB69 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8FC9972839B3DB0015DB69 /* Register.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		9D2F645A283995C700E6D7E7 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		9D2F645C283995D600E6D7E7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		9D2F645E28399BBE00E6D7E7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EE8FC9972839B3DB0015DB69 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			children = (
 				5CD4BCBD283896D0003B004F /* LaunchScreen.storyboard */,
 				5CD4BCB8283896C7003B004F /* Main.storyboard */,
+				EE8FC9972839B3DB0015DB69 /* Register.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				5CD4BCBF283896D0003B004F /* LaunchScreen.storyboard in Resources */,
 				5CD4BCBC283896D0003B004F /* Assets.xcassets in Resources */,
 				5CD4BCBA283896C7003B004F /* Main.storyboard in Resources */,
+				EE8FC9982839B3DB0015DB69 /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
