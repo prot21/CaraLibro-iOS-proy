@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CD4BCB3283896C7003B004F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4BCB2283896C7003B004F /* AppDelegate.swift */; };
+		5CD4BCB5283896C7003B004F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4BCB4283896C7003B004F /* SceneDelegate.swift */; };
+		5CD4BCB7283896C7003B004F /* ConversacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4BCB6283896C7003B004F /* ConversacionesViewController.swift */; };
+		5CD4BCBA283896C7003B004F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CD4BCB8283896C7003B004F /* Main.storyboard */; };
+		5CD4BCBC283896D0003B004F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD4BCBB283896D0003B004F /* Assets.xcassets */; };
+		5CD4BCBF283896D0003B004F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CD4BCBD283896D0003B004F /* LaunchScreen.storyboard */; };
+		5CD4BCD22838A257003B004F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4BCD12838A257003B004F /* LoginViewController.swift */; };
+		5CD4BCD62838A26A003B004F /* RegistrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4BCD52838A26A003B004F /* RegistrarViewController.swift */; };
+		9D2F645B283995C700E6D7E7 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F645A283995C700E6D7E7 /* NewConversationViewController.swift */; };
+		9D2F645D283995D600E6D7E7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F645C283995D600E6D7E7 /* ProfileViewController.swift */; };
+		9D2F645F28399BBE00E6D7E7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F645E28399BBE00E6D7E7 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CD4BCAF283896C7003B004F /* CaraLibro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaraLibro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD4BCB2283896C7003B004F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CD4BCB4283896C7003B004F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5CD4BCB6283896C7003B004F /* ConversacionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversacionesViewController.swift; sourceTree = "<group>"; };
+		5CD4BCB9283896C7003B004F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CD4BCBB283896D0003B004F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CD4BCBE283896D0003B004F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CD4BCC0283896D0003B004F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CD4BCD12838A257003B004F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5CD4BCD52838A26A003B004F /* RegistrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarViewController.swift; sourceTree = "<group>"; };
+		9D2F645A283995C700E6D7E7 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		9D2F645C283995D600E6D7E7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9D2F645E28399BBE00E6D7E7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CD4BCAC283896C7003B004F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CD4BCA6283896C7003B004F = {
+			isa = PBXGroup;
+			children = (
+				5CD4BCB1283896C7003B004F /* CaraLibro */,
+				5CD4BCB0283896C7003B004F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CD4BCB0283896C7003B004F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CD4BCAF283896C7003B004F /* CaraLibro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CD4BCB1283896C7003B004F /* CaraLibro */ = {
+			isa = PBXGroup;
+			children = (
+				5CD4BCCC283897E9003B004F /* Resources */,
+				5CD4BCCA283897B1003B004F /* ViewModels */,
+				5CD4BCC9283897A7003B004F /* Models */,
+				5CD4BCC82838979A003B004F /* Views */,
+				5CD4BCC72838978A003B004F /* Controllers */,
+				5CD4BCC0283896D0003B004F /* Info.plist */,
+			);
+			path = CaraLibro;
+			sourceTree = "<group>";
+		};
+		5CD4BCC72838978A003B004F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5CD4BCB6283896C7003B004F /* ConversacionesViewController.swift */,
+				9D2F645A283995C700E6D7E7 /* NewConversationViewController.swift */,
+				9D2F645C283995D600E6D7E7 /* ProfileViewController.swift */,
+				5CD4BCD82838AA0C003B004F /* Login */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5CD4BCC82838979A003B004F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CD4BCCD2838984E003B004F /* Storyboards */,
+				5CD4BCBB283896D0003B004F /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5CD4BCC9283897A7003B004F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5CD4BCCA283897B1003B004F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5CD4BCCC283897E9003B004F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5CD4BCB2283896C7003B004F /* AppDelegate.swift */,
+				5CD4BCB4283896C7003B004F /* SceneDelegate.swift */,
+				9D2F645E28399BBE00E6D7E7 /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5CD4BCCD2838984E003B004F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5CD4BCBD283896D0003B004F /* LaunchScreen.storyboard */,
+				5CD4BCB8283896C7003B004F /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5CD4BCD82838AA0C003B004F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5CD4BCD12838A257003B004F /* LoginViewController.swift */,
+				5CD4BCD52838A26A003B004F /* RegistrarViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CD4BCAE283896C7003B004F /* CaraLibro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD4BCC3283896D0003B004F /* Build configuration list for PBXNativeTarget "CaraLibro" */;
+			buildPhases = (
+				5CD4BCAB283896C7003B004F /* Sources */,
+				5CD4BCAC283896C7003B004F /* Frameworks */,
+				5CD4BCAD283896C7003B004F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaraLibro;
+			productName = CaraLibro;
+			productReference = 5CD4BCAF283896C7003B004F /* CaraLibro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CD4BCA7283896C7003B004F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5CD4BCAE283896C7003B004F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5CD4BCAA283896C7003B004F /* Build configuration list for PBXProject "CaraLibro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CD4BCA6283896C7003B004F;
+			productRefGroup = 5CD4BCB0283896C7003B004F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CD4BCAE283896C7003B004F /* CaraLibro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CD4BCAD283896C7003B004F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD4BCBF283896D0003B004F /* LaunchScreen.storyboard in Resources */,
+				5CD4BCBC283896D0003B004F /* Assets.xcassets in Resources */,
+				5CD4BCBA283896C7003B004F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CD4BCAB283896C7003B004F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2F645B283995C700E6D7E7 /* NewConversationViewController.swift in Sources */,
+				5CD4BCD22838A257003B004F /* LoginViewController.swift in Sources */,
+				5CD4BCD62838A26A003B004F /* RegistrarViewController.swift in Sources */,
+				9D2F645F28399BBE00E6D7E7 /* Extensions.swift in Sources */,
+				5CD4BCB7283896C7003B004F /* ConversacionesViewController.swift in Sources */,
+				9D2F645D283995D600E6D7E7 /* ProfileViewController.swift in Sources */,
+				5CD4BCB3283896C7003B004F /* AppDelegate.swift in Sources */,
+				5CD4BCB5283896C7003B004F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CD4BCB8283896C7003B004F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD4BCB9283896C7003B004F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CD4BCBD283896D0003B004F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD4BCBE283896D0003B004F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CD4BCC1283896D0003B004F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CD4BCC2283896D0003B004F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CD4BCC4283896D0003B004F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CaraLibro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Isil.CaraLibro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CD4BCC5283896D0003B004F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CaraLibro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Isil.CaraLibro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CD4BCAA283896C7003B004F /* Build configuration list for PBXProject "CaraLibro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD4BCC1283896D0003B004F /* Debug */,
+				5CD4BCC2283896D0003B004F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD4BCC3283896D0003B004F /* Build configuration list for PBXNativeTarget "CaraLibro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD4BCC4283896D0003B004F /* Debug */,
+				5CD4BCC5283896D0003B004F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CD4BCA7283896C7003B004F /* Project object */;
+}
